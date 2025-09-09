@@ -134,7 +134,7 @@ def process_person(row, sb):
 
 
 # -------------------------------
-# LOOP DE UN CHUNKk
+# LOOP DE UN CHUNK
 # -------------------------------
 def run_scraper_chunk(df, output_csv, pid):
     with SB(uc=True, headless=False) as sb:
